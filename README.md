@@ -107,7 +107,8 @@ the window.
 
 - **Run the check:** double-click `vc-connector.exe` and choose **Run the check**. Each
   line should start with `[ok]`; a `[FAIL]` line says what is wrong, a `[warn] clock` line
-  says the PC's and the database's clocks disagree.
+  says the PC's and the database's clocks disagree. An `[ok] coverage` line lists fields
+  this clinic's WinClinic version does not have; that is normal, and the rest is synced.
 - **The service isn't running:** run the setup again and choose **Update to this
   version**, which starts it; or in an administrator Command Prompt run
   `sc query VegaConnectedConnector`.
